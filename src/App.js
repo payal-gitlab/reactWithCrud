@@ -1,24 +1,20 @@
+import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { Provider } from 'react-redux';
+import store from './Redux/store';
+import { getapi } from './Redux/Actions/table';
+import FormComponent  from './Container/FormCompoent';
+import TableComponent  from './Container/TableComponent';
 function App() {
+  store.dispatch(getapi());
+  //const [passdata , setdata] = useState();
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store} >
+      <FormComponent />
+      <TableComponent />
+    </Provider>    
   );
 }
 
