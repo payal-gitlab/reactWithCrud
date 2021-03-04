@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactWithCrud/static/css/main.036e8044.chunk.css",
+    "main.js": "/reactWithCrud/static/js/main.a25e3e59.chunk.js",
+    "main.js.map": "/reactWithCrud/static/js/main.a25e3e59.chunk.js.map",
+    "runtime-main.js": "/reactWithCrud/static/js/runtime-main.85202fe5.js",
+    "runtime-main.js.map": "/reactWithCrud/static/js/runtime-main.85202fe5.js.map",
+    "static/js/2.7b9318c4.chunk.js": "/reactWithCrud/static/js/2.7b9318c4.chunk.js",
+    "static/js/2.7b9318c4.chunk.js.map": "/reactWithCrud/static/js/2.7b9318c4.chunk.js.map",
+    "static/js/3.b61dab0e.chunk.js": "/reactWithCrud/static/js/3.b61dab0e.chunk.js",
+    "static/js/3.b61dab0e.chunk.js.map": "/reactWithCrud/static/js/3.b61dab0e.chunk.js.map",
+    "index.html": "/reactWithCrud/index.html",
+    "static/css/main.036e8044.chunk.css.map": "/reactWithCrud/static/css/main.036e8044.chunk.css.map",
+    "static/js/2.7b9318c4.chunk.js.LICENSE.txt": "/reactWithCrud/static/js/2.7b9318c4.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/reactWithCrud/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85202fe5.js",
+    "static/js/2.7b9318c4.chunk.js",
+    "static/css/main.036e8044.chunk.css",
+    "static/js/main.a25e3e59.chunk.js"
+  ]
+}

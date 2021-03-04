@@ -143,7 +143,7 @@ const clearFormdata = () => (dispatch) => {
 
 const createDataapi = (data) => (dispatch) => {
     var existingEntries = JSON.parse(localStorage.getItem("productsList"));
-    data.id = existingEntries.length + 1;
+    data.id = parseInt(existingEntries[existingEntries.length - 1].id)+1;
     if(existingEntries == null) existingEntries = [];
     existingEntries.push(data);
     localStorage.setItem("productsList", JSON.stringify(existingEntries));
